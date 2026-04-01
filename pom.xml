@@ -39,7 +39,7 @@
         <repository>
             <id>nexus</id>
             <name>mvn-proj1-Release Nexus Repository</name>
-            <url>http://http://54.91.148.117:8081/repository/mvn-proj1-Release/</url>
+            <url>http://54.91.148.117:8081/repository/mvn-proj1-Release/</url>
         </repository>
   </distributionManagement>
 
@@ -48,8 +48,8 @@
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <configuration>
-          <source>1.6</source>
-          <target>1.6</target>
+          <source>1.8</source>
+          <target>1.8</target>
         </configuration>
       </plugin>
 
