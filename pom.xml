@@ -12,9 +12,6 @@
   <url>http://www.example.com</url>
 
   <properties>
-    <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
-    <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
-  </properties>    
 	<jdk.version>1.8</jdk.version>
 	<spring.version>5.1.2.RELEASE</spring.version>
 	<junit.version>4.11</junit.version>
@@ -23,6 +20,8 @@
 	<sonar.login>squ_78d8af4f9c0b3035d35fd33429142187d2d0e4f4/</sonar.login>
 	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+	  
+  </properties>
 
 
   <distributionManagement>
