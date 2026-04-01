@@ -15,6 +15,15 @@
     <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
   </properties>    
+	<jdk.version>1.8</jdk.version>
+	<spring.version>5.1.2.RELEASE</spring.version>
+	<junit.version>4.11</junit.version>
+	<log4j.version>1.2.17</log4j.version>
+	<sonar.host.url>http://3.85.164.84:9000/</sonar.host.url>
+	<sonar.login>squ_78d8af4f9c0b3035d35fd33429142187d2d0e4f4/</sonar.login>
+	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
 
   <distributionManagement>
     <site>
@@ -24,11 +33,13 @@
     </site>
     <snapshotRepository>
             <id>nexus</id>
-            <url>http://172.31.10.0:8081/repository/maven-snapshots/</url>
+            <name>mvn-proj1-Snapshot Nexus Repository</name>
+            <url>http://54.91.148.117:8081/repository/mvn-proj1-Snapshot/</url>
         </snapshotRepository>
         <repository>
             <id>nexus</id>
-            <url>http://172.31.10.0:8081/repository/maven-releases/</url>
+            <name>mvn-proj1-Release Nexus Repository</name>
+            <url>http://http://54.91.148.117:8081/repository/mvn-proj1-Release/</url>
         </repository>
   </distributionManagement>
 
